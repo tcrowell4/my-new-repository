@@ -1,0 +1,38 @@
+== Info:   Trying 52.35.83.67...
+== Info: Connected to www.pythonchallenge.com (52.35.83.67) port 80 (#0)
+== Info: Server auth using Basic with user 'huge'
+=> Send header, 152 bytes (0x98)
+0000: GET /pc/return/disproportional.html HTTP/1.1
+002e: Host: www.pythonchallenge.com
+004d: Authorization: Basic aHVnZTpmaWxl
+0070: User-Agent: curl/7.47.0
+0089: Accept: */*
+0096: 
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 23 bytes (0x17)
+0000: Vary: Accept-Encoding
+<= Recv header, 25 bytes (0x19)
+0000: Content-Type: text/html
+<= Recv header, 22 bytes (0x16)
+0000: Accept-Ranges: bytes
+<= Recv header, 19 bytes (0x13)
+0000: ETag: "365756287"
+<= Recv header, 46 bytes (0x2e)
+0000: Last-Modified: Sat, 12 Mar 2016 19:38:46 GMT
+<= Recv header, 21 bytes (0x15)
+0000: Content-Length: 371
+<= Recv header, 37 bytes (0x25)
+0000: Date: Sat, 28 Apr 2018 02:43:51 GMT
+<= Recv header, 25 bytes (0x19)
+0000: Server: lighttpd/1.4.35
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 371 bytes (0x173)
+0000: <html>.<head>.  <title>call him</title>.  <link rel="stylesheet"
+0040:  type="text/css" href="../style.css">.</head>.<body>.<center>.<i
+0080: mg src="disprop.jpg" width="640" height="480" border="0" usemap=
+00c0: "#evil" />..<map name="evil">...<area shape="circle" coords="326
+0100: ,177,45" href="../phonebook.php" />..</map>.<font color="gold"/>
+0140: .<br><b>..phone that <remote /> evil.</br>.</html>.
+== Info: Connection #0 to host www.pythonchallenge.com left intact
